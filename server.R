@@ -42,7 +42,8 @@ shinyServer(function(input, output) {
     means.between <- data %>% group_by(factor1, factor2) %>% summarise_each(measure, funs="mean")
     grandmean <- data %>% summarise(mean=mean(measure))
     
-    a <- ggplot(data, aes(x=factor2, y=measure, color=factor1)) +
+    a <- ggplot(data, aes(x=factor2, y=measure, color=factor1),
+                environment=environment()) +
       # nice white theme
       theme_bw(base_size=20) +
       # Add the labels
