@@ -1,4 +1,4 @@
-[![shiny](https://img.shields.io/badge/launch-shiny%20app-ff69b4.svg)](https://janfreyberg.shinyapps.io/factorial-anova/)
+[![shiny](https://img.shields.io/badge/launch-shiny%20app-ff69b4.svg)](http://shiny.janfreyberg.com/factorial-anova/)
 
 # factorial-anova
 
